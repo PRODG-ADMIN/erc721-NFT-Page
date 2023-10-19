@@ -30,7 +30,7 @@ const clientId = urlParams.get("clientId") || clientIdConst || "";
 
 root.render(
   <React.StrictMode>
-    <ThirdwebProvider activeChain={chain} sdkOptions={sdkOptions} clientId={clientId}>
+    <ThirdwebProvider activeChain="mumbai" clientId='c346e7d85dcb01cc44f25ed39d1afd1f'>
       <Toaster />
       <App />
     </ThirdwebProvider>
